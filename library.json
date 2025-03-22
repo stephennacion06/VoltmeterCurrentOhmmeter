@@ -1,0 +1,24 @@
+{
+    "name": "VoltmeterCurrentOhmmeter",
+    "version": "1.0.0",
+    "description": "Arduino library to measure Voltage, Current, and Resistance using ADS1115 and ACS723.",
+    "keywords": ["voltmeter", "ohmmeter", "current", "ACS723", "ADS1115"],
+    "authors": [
+      {
+        "name": "Stephen Nacion",
+        "email": "stephennacion30@gmail.com",
+        "maintainer": true
+      }
+    ],
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/stephennacion06/VoltmeterCurrentOhmmeter.git"
+    },
+    "dependencies": {
+      "adafruit/Adafruit ADS1X15 @ ^2.4.0"
+    },
+    "frameworks": ["arduino"],
+    "platforms": ["espressif32", "atmelavr", "ststm32"]
+  }
+  
